@@ -64,7 +64,7 @@ centerButton.onclick = function (e) {
 
 function rotateFunction() {
   let random = Math.floor(Math.random() * 9) + 1;
-  // let random = 3
+  // let random = 9
   // console.log(random)
   let nowDiv, preRotate, rotate;
   nowDiv = (random == document.querySelectorAll('.sector').length ? document.querySelector(".sector-1") : document.querySelector(".sector-" + parseInt(random + 1)));
